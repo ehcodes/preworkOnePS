@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font: 16px 'Fira Sans', helvetica;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+   font-size:1.5rem;
+}
+h2{
+   font-size:1.2rem;
+}
+p{
+  line-height:1.5rem;
+  padding-top:1rem;
+}
+header{
+  border: 1px solid green;
+  position: fixed;
+  width:100%;
+  padding:1rem;
+  top:0;
+  background-color:white;
+  text-align: center;
+}
+nav,
+section,
+aside{
+  border: 1px solid blue;
+  min-height:100vh;
+  padding:1rem;
+  padding-top:5.25rem;
+  padding-bottom:4.9rem;
+}
+main{
+  border: 1px solid yellow;
+  display: flex;
+  flex-direction:row;
+  align-items: space-between;
+}
+nav{
+  width:25%;
+}
+section{
+  width:50%;
+}
+aside{
+  width:25%;
+}
+footer{
+  border: 1px solid red;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  background-color:white;
+  padding:1rem;
+  text-align:center;
+}
